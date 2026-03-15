@@ -1,0 +1,16 @@
+{
+  "openai": {
+    "api_key": "YOUR_OPENAI_API_KEY",
+    "model": "gpt-5.2",
+    "base_url": "https://codeflow.asia/v1",
+    "timeout_seconds": 60,
+    "trust_env_proxy": false
+  },
+  "langfuse": {
+    "public_key": "YOUR_LANGFUSE_PUBLIC_KEY",
+    "secret_key": "YOUR_LANGFUSE_SECRET_KEY",
+    "host": "https://us.cloud.langfuse.com",
+    "timeout_seconds": 10,
+    "trust_env_proxy": false
+  }
+}
